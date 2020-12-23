@@ -8,7 +8,6 @@
     align-items: center;
 	justify-content: center;
     height: 50vh;
-
     &__button {
     display: flex;
     align-items: center;
@@ -20,15 +19,15 @@
     margin: 2px;
     &--hidden {
         display: none;
+     }
     }
-   
-    }
-
     &__numbers {
     word-wrap: break-word;
-    border: 1px solid black;
-    height: 35%;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: auto;
     width: 25%;
+    
     }
 }
 
@@ -44,4 +43,5 @@ a {
     }
    
 }
+
 
