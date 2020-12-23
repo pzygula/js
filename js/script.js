@@ -1,6 +1,6 @@
 'use strict';
 
-//Liczby
+//Liczy
 
 const tab = [];
 
@@ -10,7 +10,8 @@ for (var i=200;i>=1;i--) {
     }
 }
 
-console.log(tab)
+const div = document.querySelector("#numbers");
+div.innerText = tab;
 
 //Znikający link 
  
