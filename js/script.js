@@ -3,15 +3,17 @@
 //Liczby
 
 const tab = [];
+var liczba1=200;
+var liczba2=1;
 
-for (var i=200;i>=1;i--) {
+for (var i=liczba1;i>=liczba2;i--) {
     if(i%2==0){
         tab.push(i);
     }
 }
 
 const div = document.querySelector("#numbers");
-div.innerText = tab;
+div.innerHTML= `<p>Liczby nieparzyste od ${liczba1} do  ${liczba2}:</p> ${tab}`;
 
 //Znikający link 
  
