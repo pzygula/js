@@ -18,8 +18,10 @@
     margin: 2px; }
   .container__numbers {
     border: 1px solid black;
-    height: 25%;
-    width: 25%; }
+    height: 60%;
+    width: 25%;
+    word-wrap: break-word; }
+    
 
 a {
   text-decoration: none; }
