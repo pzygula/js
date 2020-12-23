@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; }
+  .container__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 10px;
+    height: 25%;
+    width: 25%;
+    margin: 2px; }
+  .container__numbers {
+    border: 1px solid black;
+    height: 25%;
+    width: 25%; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    transition-duration: 1s;
+    background-color: gray; }
+  a:visited {
+    color: black; }
+
+/*# sourceMappingURL=main.css.map */
