@@ -16,14 +16,15 @@
     height: 25%;
     width: 25%;
     margin: 2px; }
+    .container__button--hidden {
+      display: none; }
   .container__numbers {
     border: 1px solid black;
-    height: 60%;
-    width: 25%;
-    word-wrap: break-word; }
-    
+    height: 25%;
+    width: 25%; }
 
 a {
+  color: black;
   text-decoration: none; }
   a:hover {
     transition-duration: 1s;

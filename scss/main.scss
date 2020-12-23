@@ -18,6 +18,10 @@
     height: 25%;
     width: 25%;
     margin: 2px;
+    &--hidden {
+        display: none;
+    }
+   
     }
 
     &__numbers {
@@ -37,5 +41,6 @@ a {
     &:visited{
         color: black;
     }
+   
 }
 
