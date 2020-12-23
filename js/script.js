@@ -15,14 +15,17 @@ div.innerText = tab;
 
 //Znikający link 
  
-const link = document.querySelector('a')
+var link1 = document.querySelector('#button1')
+var link2 = document.querySelector('#button2')
+var link3 = document.querySelector('#button3')
 
-var button = document.getElementById('show_button')
-button.addEventListener('click',hideshow,false);
+name = " container__button--hidden";
 
-function hideshow() {
-    document.getElementById('hidden-div').style.display = 'block'; 
-    this.style.display = 'none'
-}   
+link1.onclick = style;
+link2.onclick = style;
+link3.onclick = style;
 
+function style () {
+        this.className += name;
+}
    

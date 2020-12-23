@@ -19,8 +19,9 @@
     .container__button--hidden {
       display: none; }
   .container__numbers {
+    word-wrap: break-word;
     border: 1px solid black;
-    height: 25%;
+    height: 35%;
     width: 25%; }
 
 a {
