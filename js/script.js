@@ -2,11 +2,15 @@
 
 //Liczby
 
+const tab = [];
+
 for (var i=200;i>=1;i--) {
     if(i%2==0){
-        console.log(i);
+        tab.push(i);
     }
 }
+
+console.log(tab)
 
 //Znikający link 
  
