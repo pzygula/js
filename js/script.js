@@ -13,7 +13,7 @@ for (var i=liczba1;i>=liczba2;i--) {
 }
 
 const div = document.querySelector("#numbers");
-div.innerHTML= `<p>Liczby nieparzyste od ${liczba1} do  ${liczba2}:</p> ${tab}`;
+div.innerHTML= `<p>Liczby parzyste od ${liczba1} do  ${liczba2}:</p> ${tab}`;
 
 //Znikający link 
  
