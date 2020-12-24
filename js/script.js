@@ -20,7 +20,7 @@ div.innerHTML= `<p>Liczby parzyste od ${liczba1} do  ${liczba2}:</p> ${tab}`;
 var link = [];
 
 for(var k=1;k<=5;k++){
-    link[k]= document.querySelector('#button'+k);
+    link[k]= document.querySelector(`#button${k}`);
     link[k].onclick = style;
 }
 
